@@ -1,0 +1,514 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed May 19 12:01:43 2021
+# Process ID: 268
+# Current directory: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1
+# Command line: vivado.exe -log CalculatorProject.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CalculatorProject.tcl
+# Log file: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/CalculatorProject.vds
+# Journal file: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source CalculatorProject.tcl -notrace
+Command: synth_design -top CalculatorProject -part xc7a100tcsg324-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-3
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11968 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 785.992 ; gain = 234.895
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'CalculatorProject' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/CalculatorProject.vhd:37]
+INFO: [Synth 8-3491] module 'clkDivider' declared at 'C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/Sources/clkDivider.vhd:36' bound to instance 'CPU_CLOCK' of component 'clkDivider' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/CalculatorProject.vhd:152]
+INFO: [Synth 8-638] synthesizing module 'clkDivider' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/Sources/clkDivider.vhd:41]
+WARNING: [Synth 8-614] signal 'CLKvalue' is read in the process but is not in the sensitivity list [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/Sources/clkDivider.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'clkDivider' (1#1) [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/Sources/clkDivider.vhd:41]
+INFO: [Synth 8-3491] module 'SwitchFormat' declared at 'C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/SwitchFormat.vhd:34' bound to instance 'FORMAT_SWITCH_INPUT_FOR_BUS' of component 'SwitchFormat' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/CalculatorProject.vhd:154]
+INFO: [Synth 8-638] synthesizing module 'SwitchFormat' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/SwitchFormat.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'SwitchFormat' (2#1) [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/SwitchFormat.vhd:39]
+INFO: [Synth 8-3491] module 'TriBuffer28' declared at 'C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/TriBuffer28.vhd:34' bound to instance 'TRIBUFFER_FOR_SWITCHES' of component 'TriBuffer28' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/CalculatorProject.vhd:155]
+INFO: [Synth 8-638] synthesizing module 'TriBuffer28' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/TriBuffer28.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'TriBuffer28' (3#1) [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/TriBuffer28.vhd:40]
+INFO: [Synth 8-3491] module 'StateMachine' declared at 'C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/StateMachine.vhd:32' bound to instance 'STATE_MACHINE' of component 'StateMachine' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/CalculatorProject.vhd:160]
+INFO: [Synth 8-638] synthesizing module 'StateMachine' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/StateMachine.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'StateMachine' (4#1) [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/StateMachine.vhd:44]
+INFO: [Synth 8-3491] module 'Register28' declared at 'C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/Register28.vhd:34' bound to instance 'ALU_ACCUMULATOR' of component 'Register28' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/CalculatorProject.vhd:171]
+INFO: [Synth 8-638] synthesizing module 'Register28' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/Register28.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Register28' (5#1) [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/Register28.vhd:41]
+INFO: [Synth 8-3491] module 'ALU28' declared at 'C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/ALU28.vhd:35' bound to instance 'ALU' of component 'ALU28' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/CalculatorProject.vhd:172]
+INFO: [Synth 8-638] synthesizing module 'ALU28' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/ALU28.vhd:43]
+WARNING: [Synth 8-614] signal 'InputA' is read in the process but is not in the sensitivity list [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/ALU28.vhd:50]
+WARNING: [Synth 8-614] signal 'ResetError' is read in the process but is not in the sensitivity list [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/ALU28.vhd:50]
+WARNING: [Synth 8-614] signal 'OpCode' is read in the process but is not in the sensitivity list [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/ALU28.vhd:50]
+WARNING: [Synth 8-614] signal 'DataA' is read in the process but is not in the sensitivity list [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/ALU28.vhd:50]
+WARNING: [Synth 8-614] signal 'DataB' is read in the process but is not in the sensitivity list [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/ALU28.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'ALU28' (6#1) [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/ALU28.vhd:43]
+INFO: [Synth 8-3491] module 'Register28' declared at 'C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/Register28.vhd:34' bound to instance 'ALU_OUTPUT_READ' of component 'Register28' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/CalculatorProject.vhd:173]
+INFO: [Synth 8-3491] module 'TriBuffer28' declared at 'C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/TriBuffer28.vhd:34' bound to instance 'ALU_OUTPUT_WRITE' of component 'TriBuffer28' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/CalculatorProject.vhd:174]
+INFO: [Synth 8-3491] module 'bit12binToBCD' declared at 'C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/bit12binToBCD.vhd:36' bound to instance 'PROCESS_BUS_DATA' of component 'bit12binToBCD' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/CalculatorProject.vhd:177]
+INFO: [Synth 8-638] synthesizing module 'bit12binToBCD' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/bit12binToBCD.vhd:42]
+INFO: [Synth 8-3491] module 'checkNeg' declared at 'C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/checkNeg.vhd:36' bound to instance 'CHECK_IF_DATA_NEGATIVE' of component 'checkNeg' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/bit12binToBCD.vhd:78]
+INFO: [Synth 8-638] synthesizing module 'checkNeg' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/checkNeg.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'checkNeg' (7#1) [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/checkNeg.vhd:42]
+INFO: [Synth 8-3491] module 'doubleDabble' declared at 'C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/doubleDabble.vhd:36' bound to instance 'PROCESS_BINARY_DATA' of component 'doubleDabble' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/bit12binToBCD.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'doubleDabble' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/doubleDabble.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'doubleDabble' (8#1) [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/doubleDabble.vhd:41]
+INFO: [Synth 8-3491] module 'completeBCD' declared at 'C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/completeBCD.vhd:34' bound to instance 'FIT_NEGATIVE' of component 'completeBCD' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/bit12binToBCD.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'completeBCD' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/completeBCD.vhd:40]
+WARNING: [Synth 8-614] signal 'NegBCD' is read in the process but is not in the sensitivity list [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/completeBCD.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'completeBCD' (9#1) [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/completeBCD.vhd:40]
+INFO: [Synth 8-3491] module 'OutputBCD' declared at 'C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/OutputBCD.vhd:34' bound to instance 'SEND_BCD_FINAL' of component 'OutputBCD' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/bit12binToBCD.vhd:81]
+INFO: [Synth 8-638] synthesizing module 'OutputBCD' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/OutputBCD.vhd:41]
+WARNING: [Synth 8-614] signal 'OpCode' is read in the process but is not in the sensitivity list [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/OutputBCD.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'OutputBCD' (10#1) [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/OutputBCD.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'bit12binToBCD' (11#1) [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/bit12binToBCD.vhd:42]
+INFO: [Synth 8-3491] module 'clkDivider7Seg' declared at 'C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/Sources/clkDivider7Seg.vhd:35' bound to instance 'SET_SEGMENT_FREQUENCY' of component 'clkDivider7Seg' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/CalculatorProject.vhd:178]
+INFO: [Synth 8-638] synthesizing module 'clkDivider7Seg' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/Sources/clkDivider7Seg.vhd:40]
+WARNING: [Synth 8-614] signal 'CLKvalue' is read in the process but is not in the sensitivity list [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/Sources/clkDivider7Seg.vhd:56]
+INFO: [Synth 8-256] done synthesizing module 'clkDivider7Seg' (12#1) [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/Sources/clkDivider7Seg.vhd:40]
+INFO: [Synth 8-3491] module 'shiftRegister3Segs' declared at 'C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/Sources/shiftRegister3Segs.vhd:36' bound to instance 'SHIFT_SEGMENT_DISPLAYED' of component 'shiftRegister3Segs' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/CalculatorProject.vhd:179]
+INFO: [Synth 8-638] synthesizing module 'shiftRegister3Segs' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/Sources/shiftRegister3Segs.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'shiftRegister3Segs' (13#1) [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/Sources/shiftRegister3Segs.vhd:41]
+INFO: [Synth 8-3491] module 'bcdSelect' declared at 'C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/Sources/bcdSelect.vhd:36' bound to instance 'SELECT_4_BIT_FROM_32_BIT' of component 'bcdSelect' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/CalculatorProject.vhd:180]
+INFO: [Synth 8-638] synthesizing module 'bcdSelect' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/Sources/bcdSelect.vhd:42]
+WARNING: [Synth 8-614] signal 'bcdFiller' is read in the process but is not in the sensitivity list [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/Sources/bcdSelect.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'bcdSelect' (14#1) [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/Sources/bcdSelect.vhd:42]
+INFO: [Synth 8-3491] module 'bcdToSeg7' declared at 'C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/imports/Sources/bcdToSeg7.vhd:27' bound to instance 'DISPLAY_4_BIT' of component 'bcdToSeg7' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/CalculatorProject.vhd:181]
+INFO: [Synth 8-638] synthesizing module 'bcdToSeg7' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/imports/Sources/bcdToSeg7.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'bcdToSeg7' (15#1) [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/imports/Sources/bcdToSeg7.vhd:32]
+WARNING: [Synth 8-3848] Net LED in module/entity CalculatorProject does not have driver. [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/CalculatorProject.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'CalculatorProject' (16#1) [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/CalculatorProject.vhd:37]
+WARNING: [Synth 8-3331] design ALU28 has unconnected port InputA[27]
+WARNING: [Synth 8-3331] design ALU28 has unconnected port InputA[26]
+WARNING: [Synth 8-3331] design ALU28 has unconnected port InputA[25]
+WARNING: [Synth 8-3331] design ALU28 has unconnected port InputA[24]
+WARNING: [Synth 8-3331] design CalculatorProject has unconnected port LED[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 859.641 ; gain = 308.543
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 859.641 ; gain = 308.543
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 859.641 ; gain = 308.543
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.345 . Memory (MB): peak = 859.641 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/constrs_1/imports/Constraints/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/constrs_1/imports/Constraints/Nexys4DDR_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/constrs_1/imports/Constraints/Nexys4DDR_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/CalculatorProject_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/CalculatorProject_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 981.973 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 981.973 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 981.973 ; gain = 430.875
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 981.973 ; gain = 430.875
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 981.973 ; gain = 430.875
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "OpBCD" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'Output_reg' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/ALU28.vhd:61]
+WARNING: [Synth 8-327] inferring latch for variable 'Error_reg' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/ALU28.vhd:57]
+WARNING: [Synth 8-327] inferring latch for variable 'BCDfinal_reg' [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/OutputBCD.vhd:57]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 981.973 ; gain = 430.875
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     56 Bit       Adders := 161   
+	   2 Input     55 Bit       Adders := 24    
+	   2 Input     51 Bit       Adders := 1     
+	   2 Input     47 Bit       Adders := 1     
+	   2 Input     43 Bit       Adders := 1     
+	   2 Input     39 Bit       Adders := 1     
+	   2 Input     35 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     30 Bit       Adders := 1     
+	   2 Input     24 Bit       Adders := 6     
+	   3 Input     24 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               28 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     55 Bit        Muxes := 23    
+	   2 Input     32 Bit        Muxes := 12    
+	   2 Input     24 Bit        Muxes := 5     
+	   2 Input      4 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module clkDivider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module StateMachine 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module Register28 
+Detailed RTL Component Info : 
++---Registers : 
+	               28 Bit    Registers := 1     
+Module ALU28 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     24 Bit       Adders := 5     
+	   3 Input     24 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 4     
+	   6 Input      1 Bit        Muxes := 1     
+Module checkNeg 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     24 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+Module doubleDabble 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     56 Bit       Adders := 161   
+	   2 Input     55 Bit       Adders := 24    
+	   2 Input     51 Bit       Adders := 1     
+	   2 Input     47 Bit       Adders := 1     
+	   2 Input     43 Bit       Adders := 1     
+	   2 Input     39 Bit       Adders := 1     
+	   2 Input     35 Bit       Adders := 1     
+	   2 Input     30 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     55 Bit        Muxes := 23    
+Module completeBCD 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 8     
+Module OutputBCD 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   5 Input      4 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module clkDivider7Seg 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module shiftRegister3Segs 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module bcdSelect 
+Detailed RTL Component Info : 
++---Muxes : 
+	   9 Input      4 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+DSP Report: Generating DSP Output0, operation Mode is: A*B.
+DSP Report: operator Output0 is absorbed into DSP Output0.
+INFO: [Synth 8-5544] ROM "PROCESS_BUS_DATA/SEND_BCD_FINAL/OpBCD" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-3331] design ALU28 has unconnected port InputA[27]
+WARNING: [Synth 8-3331] design ALU28 has unconnected port InputA[26]
+WARNING: [Synth 8-3331] design ALU28 has unconnected port InputA[25]
+WARNING: [Synth 8-3331] design ALU28 has unconnected port InputA[24]
+WARNING: [Synth 8-3331] design CalculatorProject has unconnected port LED[0]
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\STATE_MACHINE/DivErrorReset_reg )
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[27]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[26]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[25]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[24]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[23]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[22]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[21]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[20]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[19]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[18]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[17]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[16]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[15]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[14]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[13]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[12]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[11]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[10]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[9]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[8]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[7]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[6]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[5]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[4]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[3]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[2]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[1]) is unused and will be removed from module CalculatorProject.
+WARNING: [Synth 8-3332] Sequential element (ALU/Output_reg[0]) is unused and will be removed from module CalculatorProject.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:09 ; elapsed = 00:01:13 . Memory (MB): peak = 981.973 ; gain = 430.875
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping	Report (see note below)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|ALU28       | A*B         | 12     | 12     | -      | -      | 24     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:35 ; elapsed = 00:01:40 . Memory (MB): peak = 997.547 ; gain = 446.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:37 ; elapsed = 00:01:41 . Memory (MB): peak = 1020.910 ; gain = 469.812
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:41 ; elapsed = 00:01:46 . Memory (MB): peak = 1047.750 ; gain = 496.652
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:51 ; elapsed = 00:01:57 . Memory (MB): peak = 1052.500 ; gain = 501.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:51 ; elapsed = 00:01:57 . Memory (MB): peak = 1052.500 ; gain = 501.402
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:52 ; elapsed = 00:01:57 . Memory (MB): peak = 1052.500 ; gain = 501.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:52 ; elapsed = 00:01:57 . Memory (MB): peak = 1052.500 ; gain = 501.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:52 ; elapsed = 00:01:57 . Memory (MB): peak = 1052.500 ; gain = 501.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:52 ; elapsed = 00:01:57 . Memory (MB): peak = 1052.500 ; gain = 501.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     3|
+|2     |CARRY4  |  1158|
+|3     |DSP48E1 |     1|
+|4     |LUT1    |   161|
+|5     |LUT2    |  2718|
+|6     |LUT3    |   172|
+|7     |LUT4    |   694|
+|8     |LUT5    |  1153|
+|9     |LUT6    |   308|
+|10    |MUXF7   |    17|
+|11    |FDRE    |   137|
+|12    |FDSE    |     1|
+|13    |LD      |    32|
+|14    |LDP     |     1|
+|15    |IBUF    |    18|
+|16    |OBUF    |    15|
+|17    |OBUFT   |     1|
++------+--------+------+
+
+Report Instance Areas: 
++------+--------------------------+-------------------+------+
+|      |Instance                  |Module             |Cells |
++------+--------------------------+-------------------+------+
+|1     |top                       |                   |  6590|
+|2     |  ALU                     |ALU28              |  1573|
+|3     |  ALU_ACCUMULATOR         |Register28         |   168|
+|4     |  ALU_OUTPUT_READ         |Register28_0       |    28|
+|5     |  CPU_CLOCK               |clkDivider         |    52|
+|6     |  PROCESS_BUS_DATA        |bit12binToBCD      |  4142|
+|7     |    PROCESS_BINARY_DATA   |doubleDabble       |  4106|
+|8     |    SEND_BCD_FINAL        |OutputBCD          |    36|
+|9     |  SET_SEGMENT_FREQUENCY   |clkDivider7Seg     |    52|
+|10    |  SHIFT_SEGMENT_DISPLAYED |shiftRegister3Segs |    48|
+|11    |  STATE_MACHINE           |StateMachine       |   490|
++------+--------------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:52 ; elapsed = 00:01:57 . Memory (MB): peak = 1052.500 ; gain = 501.402
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 36 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:27 ; elapsed = 00:01:47 . Memory (MB): peak = 1052.500 ; gain = 379.070
+Synthesis Optimization Complete : Time (s): cpu = 00:01:52 ; elapsed = 00:01:58 . Memory (MB): peak = 1052.500 ; gain = 501.402
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.264 . Memory (MB): peak = 1064.586 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1209 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1064.586 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 33 instances were transformed.
+  LD => LDCE: 32 instances
+  LDP => LDPE: 1 instance 
+
+INFO: [Common 17-83] Releasing license: Synthesis
+64 Infos, 52 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:04 ; elapsed = 00:02:12 . Memory (MB): peak = 1064.586 ; gain = 765.973
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1064.586 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/CalculatorProject.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file CalculatorProject_utilization_synth.rpt -pb CalculatorProject_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed May 19 12:04:02 2021...

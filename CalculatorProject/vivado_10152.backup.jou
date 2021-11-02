@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue May 18 23:07:30 2021
+# Process ID: 10152
+# Current directory: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15148 C:\Users\ADAM\Desktop\ENEL373 Digital Electronics and Devices\CalculatorProject\CalculatorProject\CalculatorProject.xpr
+# Log file: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/vivado.log
+# Journal file: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.xpr}

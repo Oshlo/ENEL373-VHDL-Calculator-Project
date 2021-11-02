@@ -1,0 +1,11 @@
+0000000000000000000000000000000000000000 311a71984f64fccd62f012614d22996c3b9bf381 Adam Finlayson <acf60@uclive.ac.nz> 1615863414 +1300	commit (initial): First Commit
+311a71984f64fccd62f012614d22996c3b9bf381 ba105467ac7fcf358d7c142dd1474854585380f6 Adam Finlayson <acf60@uclive.ac.nz> 1615890199 +1300	commit: Added the shift register as talked about in lab. bcdTo7Seg now only takes a 4 bit BCD input. Added a BCD select that outputs a 4 bit BCD from the larger 12 bit BCD depending on the segment currently switched on. Seems a bit more complicated now but should be easier to build upon.
+ba105467ac7fcf358d7c142dd1474854585380f6 46275146eb9197ad0dbb4f7cb99d0acb28c3a763 Adam Finlayson <acf60@uclive.ac.nz> 1615891148 +1300	commit: Added comments
+46275146eb9197ad0dbb4f7cb99d0acb28c3a763 af6597bc24e16e7b24a6b34c64d26c30b3a5e866 Adam Finlayson <acf60@uclive.ac.nz> 1615891433 +1300	pull: Fast-forward
+af6597bc24e16e7b24a6b34c64d26c30b3a5e866 1c07ea3e8f9202df5de53199b42bfd6e1795bc22 Adam Finlayson <acf60@uclive.ac.nz> 1615893232 +1300	commit: Updated README with a todo list.
+1c07ea3e8f9202df5de53199b42bfd6e1795bc22 02f156489dd338c5886a2f46144cbba725aa07d4 Adam Finlayson <acf60@uclive.ac.nz> 1616468926 +1300	commit: Updated the projected so all 7 Sehment displays are on. Still only works with 12 bit BCD. Next step is to implement a 12 bit unsigned binary to 32 bit BCD
+02f156489dd338c5886a2f46144cbba725aa07d4 c9fadaafb9fee71e3e54f0b333fae7d15c761e87 Adam Finlayson <acf60@uclive.ac.nz> 1621262812 +1200	pull: Fast-forward
+c9fadaafb9fee71e3e54f0b333fae7d15c761e87 f7ce7b7b00acac6b7639f736237c8ca0c36b69a2 Adam Finlayson <acf60@uclive.ac.nz> 1621278619 +1200	commit: working binary to BCD, Still lots to do.
+f7ce7b7b00acac6b7639f736237c8ca0c36b69a2 279e645fbeb9667a0998f952054ac3b86a85e281 Adam Finlayson <acf60@uclive.ac.nz> 1621284383 +1200	commit: state 1 is done but still not close to finished
+279e645fbeb9667a0998f952054ac3b86a85e281 c769e3dd254d4b6b4bfccba9874342c145ae642f Adam Finlayson <acf60@uclive.ac.nz> 1621291211 +1200	commit: Its kinda working
+c769e3dd254d4b6b4bfccba9874342c145ae642f 91c3e7858bc258a96e383cc7f8def094d5a8d80d Adam Finlayson <acf60@uclive.ac.nz> 1621306131 +1200	commit: Kinda Nearly done hahah. State Machine is still wonky.

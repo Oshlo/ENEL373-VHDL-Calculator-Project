@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-3" LaunchTime="1621382497">
+  <File Type="ROUTE-PWR" Name="CalculatorProject_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="CalculatorProject.tcl"/>
+  <File Type="BITSTR-BMM" Name="CalculatorProject_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="CalculatorProject_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="CalculatorProject_reports.tcl"/>
+  <File Type="OPT-DCP" Name="CalculatorProject_opt.dcp"/>
+  <File Type="OPT-DRC" Name="CalculatorProject_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="CalculatorProject.hwdef"/>
+  <File Type="PWROPT-DCP" Name="CalculatorProject_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="CalculatorProject_placed.dcp"/>
+  <File Type="PLACE-IO" Name="CalculatorProject_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="CalculatorProject_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="CalculatorProject_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="CalculatorProject_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="CalculatorProject_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="CalculatorProject_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="CalculatorProject.bin"/>
+  <File Type="PHYSOPT-DCP" Name="CalculatorProject_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="CalculatorProject.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="CalculatorProject_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="CalculatorProject_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="CalculatorProject_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="CalculatorProject_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="CalculatorProject_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="CalculatorProject_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="CalculatorProject_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="CalculatorProject.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="CalculatorProject_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="CalculatorProject_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="CalculatorProject_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="CalculatorProject_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="CalculatorProject_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="CalculatorProject_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="CalculatorProject_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="CalculatorProject_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="CalculatorProject_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="CalculatorProject_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="CalculatorProject_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="CalculatorProject_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="CalculatorProject_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="CalculatorProject_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="CalculatorProject.bit"/>
+  <File Type="BITSTR-RBT" Name="CalculatorProject.rbt"/>
+  <File Type="BITSTR-NKY" Name="CalculatorProject.nky"/>
+  <File Type="PDI-FILE" Name="CalculatorProject.pdi"/>
+  <File Type="RCFI_FILE" Name="CalculatorProject.rcfi"/>
+  <File Type="CFI_FILE" Name="CalculatorProject.cfi"/>
+  <File Type="RNPI_FILE" Name="CalculatorProject.rnpi"/>
+  <File Type="NPI_FILE" Name="CalculatorProject.npi"/>
+  <File Type="RBD_FILE" Name="CalculatorProject.rbd"/>
+  <File Type="BITSTR-LTX" Name="CalculatorProject.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="CalculatorProject.sysdef"/>
+  <File Type="BG-BGN" Name="CalculatorProject.bgn"/>
+  <File Type="BG-DRC" Name="CalculatorProject.drc"/>
+  <File Type="RDI-RDI" Name="CalculatorProject.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/ALU28.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/OutputBCD.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Register28.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/StateMachine.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SwitchFormat.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/TriBuffer28.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Sources/bcdSelect.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/bcdToSeg7.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sources/bcdToSeg7.vhd"/>
+        <Attr Name="ImportTime" Val="1615275716"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/bit12binToBCD.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/checkNeg.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Sources/clkDivider.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Sources/clkDivider7Seg.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/completeBCD.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/doubleDabble.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Sources/shiftRegister3Segs.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CalculatorProject.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ButtonDebounce.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Segment7Handler.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/OperatorBCD.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DDshifter.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Sources/twoBitCounter.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Sources/eightBitCounter.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Sources/fourBitCounter.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="CalculatorProject"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Constraints/Nexys4DDR_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Constraints/Nexys4DDR_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1519169712"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Jun  3 13:59:55 2021
+# Process ID: 21300
+# Current directory: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22516 C:\Users\ADAM\Desktop\ENEL373 Digital Electronics and Devices\CalculatorProject\CalculatorProject\CalculatorProject.xpr
+# Log file: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/vivado.log
+# Journal file: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.xpr}
+update_compile_order -fileset sources_1
+create_bd_design "design_1"
+update_compile_order -fileset sources_1
+generate_target all [get_files  {{C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/bd/design_1/design_1.bd}}]
+export_ip_user_files -of_objects [get_files {{C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/bd/design_1/design_1.bd}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/bd/design_1/design_1.bd}}]
+export_simulation -of_objects [get_files {{C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/bd/design_1/design_1.bd}}] -directory {C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.ip_user_files} -ipstatic_source_dir {C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.cache/compile_simlib/modelsim} {questa=C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.cache/compile_simlib/questa} {riviera=C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.cache/compile_simlib/riviera} {activehdl=C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+synth_design -rtl -name rtl_1

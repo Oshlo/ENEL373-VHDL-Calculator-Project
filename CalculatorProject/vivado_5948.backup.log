@@ -1,0 +1,277 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue May 18 23:10:04 2021
+# Process ID: 5948
+# Current directory: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18228 C:\Users\ADAM\Desktop\ENEL373 Digital Electronics and Devices\CalculatorProject\CalculatorProject\CalculatorProject.xpr
+# Log file: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/vivado.log
+# Journal file: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 720.754 ; gain = 45.238
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/ButtonDebounce.vhd} w ]
+add_files {{C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/ButtonDebounce.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+CRITICAL WARNING: [HDL 9-806] Syntax error near "end". [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/CalculatorProject.vhd:113]
+[Wed May 19 02:10:29 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed May 19 02:11:03 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed May 19 02:12:20 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Wed May 19 02:13:07 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/impl_1/runme.log
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+[Wed May 19 02:14:12 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+2. Failed to delete one or more files in run directory C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Wed May 19 02:14:19 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed May 19 02:15:43 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Wed May 19 02:16:28 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 19 02:17:51 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 19 02:20:03 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/runme.log
+[Wed May 19 02:20:03 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 19 02:22:45 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/runme.log
+[Wed May 19 02:22:46 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 19 02:24:34 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/runme.log
+[Wed May 19 02:24:34 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 19 02:28:46 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/runme.log
+[Wed May 19 02:28:46 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 19 02:29:52 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/runme.log
+[Wed May 19 02:29:52 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 19 02:30:49 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/runme.log
+[Wed May 19 02:30:49 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+[Wed May 19 02:32:44 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/runme.log
+[Wed May 19 02:32:44 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 19 02:35:23 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/impl_1/runme.log
+close [ open {C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/SwitchFormat.vhd} w ]
+add_files {{C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/SwitchFormat.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/28bitTristateBuffer.vhd} w ]
+add_files {{C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/28bitTristateBuffer.vhd}}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/28bitTristateBuffer.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/28bitTristateBuffer.vhd}}
+close [ open {C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/TriBuffer28.vhd} w ]
+add_files {{C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/TriBuffer28.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed May 19 03:01:04 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed May 19 03:01:31 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/runme.log
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed May 19 04:11:53 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Wed May 19 04:21:46 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/impl_1/runme.log
+close [ open {C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/Segment7Handler.vhd} w ]
+add_files {{C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/sources_1/new/Segment7Handler.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed May 19 06:31:22 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Wed May 19 06:32:30 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 19 06:37:44 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/runme.log
+[Wed May 19 06:37:44 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 19 06:45:32 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/runme.log
+[Wed May 19 06:45:32 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 19 06:49:47 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/runme.log
+[Wed May 19 06:49:47 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-3
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 1919.703 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 798 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'CalculatorProject' is not ideal for floorplanning, since the cellview 'doubleDabble' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2019.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.455 . Memory (MB): peak = 1963.621 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.456 . Memory (MB): peak = 1963.621 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1963.621 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:36 ; elapsed = 00:00:25 . Memory (MB): peak = 2092.258 ; gain = 411.094
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+[Wed May 19 07:00:22 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/runme.log
+[Wed May 19 07:00:23 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+[Wed May 19 07:01:41 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/runme.log
+[Wed May 19 07:01:41 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/impl_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-3
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 3164.496 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 798 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'CalculatorProject' is not ideal for floorplanning, since the cellview 'doubleDabble' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2019.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/constrs_1/imports/Constraints/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/constrs_1/imports/Constraints/Nexys4DDR_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3222.969 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 3222.969 ; gain = 58.773
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -3, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed May 19 07:13:00 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-3
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 3222.969 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 786 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'CalculatorProject' is not ideal for floorplanning, since the cellview 'doubleDabble' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2019.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/constrs_1/imports/Constraints/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.srcs/constrs_1/imports/Constraints/Nexys4DDR_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3222.969 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 3222.969 ; gain = 0.000
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -3, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+close_design
+close_design
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 19 07:16:13 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed May 19 07:19:04 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Wed May 19 07:20:18 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+[Wed May 19 07:23:12 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/synth_1/runme.log
+[Wed May 19 07:23:12 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.runs/impl_1/runme.log

@@ -1,0 +1,89 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Wed May 19 12:05:11 2021
+| Host         : DESKTOP-K5K9BAE running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file CalculatorProject_control_sets_placed.rpt
+| Design       : CalculatorProject
+| Device       : xc7a100t
+----------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    11 |
+|    Minimum number of control sets                        |    11 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    29 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    11 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     4 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     6 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              56 |           32 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              63 |           17 |
+| Yes          | No                    | No                     |              56 |           36 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               4 |            1 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------------+--------------------------------------+--------------------------------+------------------+----------------+
+|              Clock Signal             |             Enable Signal            |        Set/Reset Signal        | Slice Load Count | Bel Load Count |
++---------------------------------------+--------------------------------------+--------------------------------+------------------+----------------+
+|                                       |                                      | STATE_MACHINE/Error_reg_i_3_0  |                1 |              1 |
+|  CLK_BUFG                             |                                      |                                |                2 |              4 |
+|  CLK_BUFG                             | STATE_MACHINE//i__n_1                |                                |                1 |              4 |
+|  CLK_BUFG                             | BTNC_IBUF                            | ALU/SR[0]                      |                1 |              4 |
+|  CLK100MHZ_IBUF_BUFG                  |                                      |                                |                4 |              4 |
+|  SET_SEGMENT_FREQUENCY/CLKvalue_reg_0 |                                      |                                |                7 |             16 |
+|  CLK_BUFG                             | STATE_MACHINE/E[0]                   |                                |               12 |             24 |
+|  CLK_BUFG                             | STATE_MACHINE/ALUOutputRead_reg_0[0] |                                |               23 |             28 |
+|  CLK100MHZ_IBUF_BUFG                  |                                      | CPU_CLOCK/CLKvalue             |                8 |             31 |
+|  CLK100MHZ_IBUF_BUFG                  |                                      | SET_SEGMENT_FREQUENCY/CLKvalue |                8 |             31 |
+|  n_0_3423_BUFG                        |                                      |                                |               19 |             32 |
++---------------------------------------+--------------------------------------+--------------------------------+------------------+----------------+
+
+

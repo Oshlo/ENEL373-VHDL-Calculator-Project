@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue May 18 23:00:11 2021
+# Process ID: 12736
+# Current directory: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12416 C:\Users\ADAM\Desktop\ENEL373 Digital Electronics and Devices\CalculatorProject\CalculatorProject\CalculatorProject.xpr
+# Log file: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/vivado.log
+# Journal file: C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject/CalculatorProject.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/ADAM/Desktop/ENEL373 Digital Electronics and Devices/CalculatorProject/CalculatorProject'
+INFO: [Project 1-313] Project file moved from 'P:/My Documents/2021/ENCE373/Project_UPDATED/CalculatorProject' since last save.
+Scanning sources...
+Finished scanning sources
+ERROR: [Project 1-510] Parsing generated run data failed
+INFO: [Common 17-206] Exiting Vivado at Tue May 18 23:02:42 2021...
