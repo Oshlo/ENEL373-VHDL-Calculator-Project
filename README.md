@@ -1,4 +1,7 @@
 # Calculator Project
+> Adam Finlayson
+
+**[Project Instructions](ENEL373_Fast_Calculator_Project_v0_2__2021.pdf)**
 
 ## TO DO LIST
 
